@@ -36,10 +36,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun CounterScreen(
-    viewModel: CounterViewModel,
-    modifier: Modifier = Modifier
-) {
+fun CounterScreen(viewModel: CounterViewModel, modifier: Modifier = Modifier) {
     val count = viewModel.count.value
 
     Column(
